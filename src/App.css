@@ -64,11 +64,11 @@ p {
   justify-content: center;
   display: flex;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 10vh;
 }
 
 .darcy {
-  width: 70%;
+  width: 100%;
 }
 
 .logo {
@@ -81,7 +81,8 @@ p {
 
 .left {
   width: 50%;
-  padding-top: 50vh;
+  padding-top: 40vh;
+  padding-left: 10vw;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -90,7 +91,8 @@ p {
 
 .right {
   width: 50%;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  padding-right: 10vw;
   justify-content: center;
   align-items: center;
   text-align: center;
