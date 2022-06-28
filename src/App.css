@@ -47,7 +47,6 @@
 .partyMode {
   justify-content: flex-end;
   flex-direction: row;
-
 }
 p {
   line-height: 0px;
@@ -57,7 +56,6 @@ p {
 .title {
   justify-content: flex-end;
   flex-direction: row;
-
 }
 
 .img-wrapper {
@@ -72,11 +70,11 @@ p {
 }
 
 .logo {
-  width: 100%
+  width: 100%;
 }
 
-.logo-wrapper{
-  width: 10%
+.logo-wrapper {
+  width: 10%;
 }
 
 .left {
@@ -97,4 +95,44 @@ p {
   align-items: center;
   text-align: center;
   transform: rotate(-50deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .Home {
+    flex-direction: column;
+  }
+  .img-wrapper {
+    width: 100%;
+  }
+  .darcy {
+    width: 100%;
+  }
+
+  .left {
+    max-height: 10vh;
+    padding-top: 5vh;
+  }
+  .right {
+    max-height: 10vh;
+    padding-top: 10vh;
+    padding-left: 20vh;
+  }
+
+  .title {
+    max-width: 40%;
+  }
+  
+  h1{
+    font-size: medium;
+  }
+
+  .logo {
+    width: 100%;
+  }
+  
+  .logo-wrapper {
+    width: 30%;
+  }
+  
+
 }
