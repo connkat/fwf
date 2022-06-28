@@ -10,7 +10,8 @@ import song from "./music/song.mp3";
 import './App.css';
 
 function App() {
-  
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
   const [audio, setAudio] = useState( new Audio(song) )
   const [isPartyMode, setIsPartyMode] = useState(false);
 
