@@ -20,7 +20,6 @@ function App() {
       setIsPartyMode(true);
     } else {
       audio.pause();
-      console.log("!!!!!!!")
       setIsPartyMode(false);
     }
 
