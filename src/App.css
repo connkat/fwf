@@ -1,0 +1,98 @@
+.blink-bg {
+  animation: blinkingBackground 1.875s infinite;
+}
+.Home {
+  display: flex;
+  flex-direction: row;
+}
+
+.App {
+  min-height: 100vh;
+  padding-bottom: 1rem;
+}
+
+@keyframes blinkingBackground {
+  0% {
+    background-color: #55c45b;
+  }
+  20% {
+    background-color: #2a6bcd;
+  }
+  40% {
+    background-color: #e9404b;
+  }
+  60% {
+    background-color: #f2e664;
+  }
+  80% {
+    background-color: #27adda;
+  }
+  100% {
+    background-color: #55c45b;
+  }
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.partyMode {
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+p {
+  line-height: 0px;
+  font-size: x-small;
+}
+
+.title {
+  justify-content: flex-end;
+  flex-direction: row;
+
+}
+
+.img-wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.darcy {
+  width: 70%;
+}
+
+.logo {
+  width: 100%
+}
+
+.logo-wrapper{
+  width: 10%
+}
+
+.left {
+  width: 50%;
+  padding-top: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(20deg);
+}
+
+.right {
+  width: 50%;
+  padding-top: 20vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: rotate(-50deg);
+}
