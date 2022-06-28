@@ -5,11 +5,13 @@ import { Container } from 'reactstrap';
 import Header from './components/header';
 import HomePage from './pages/homePage'
 
+import song from "./music/song.mp3";
+
 import './App.css';
 
 function App() {
-
-  const [audio] = useState(new Audio(`https://uk2.internet-radio.com/proxy/danceradiouk?mp=/stream`));
+  
+  const [audio, setAudio] = useState( new Audio(song) )
   const [isPartyMode, setIsPartyMode] = useState(false);
 
   const handlePartyModeToggle = (checked: boolean): boolean => {
@@ -18,6 +20,7 @@ function App() {
       setIsPartyMode(true);
     } else {
       audio.pause();
+      console.log("!!!!!!!")
       setIsPartyMode(false);
     }
 
