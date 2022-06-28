@@ -120,6 +120,7 @@ p {
 
   .title {
     max-width: 40%;
+    text-align: center;
   }
   
   h1{
@@ -132,6 +133,7 @@ p {
   
   .logo-wrapper {
     width: 30%;
+    padding-top: 2vh;
   }
   
 
