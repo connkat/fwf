@@ -1,6 +1,8 @@
+
 import fwf from "../assets/fwf.jpeg";
 
 function HomePage() {
+
   return (
     <div className="Home">
       <div className="left">
