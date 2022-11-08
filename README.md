@@ -8,7 +8,7 @@ I'm not mad about it.
 
 ## Dev-y stuff
 
-Created using CRA TS, with party-mode inspiration from my pal [Sebastian](https://github.com/usernameseb). 
+Created using CRA, TS, with party-mode inspiration from my pal [Sebastian](https://github.com/usernameseb). 
 
 ## Screenshots
 
