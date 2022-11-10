@@ -6,7 +6,7 @@ I noticed my pals at the FWF didn't have a website so I took the liberty of purc
 
 I'm not mad about it. 
 
-## Dev-y stuff
+## Dev Info 
 
 Created using CRA, TS, with party-mode inspiration from my pal [Sebastian](https://github.com/usernameseb). 
 
