@@ -6,7 +6,7 @@ I noticed my pals at the (now defunked) FWF didn't have a website so I took the 
 
 ## Dev Info 
 
-Created using CRA, TS, with party-mode inspiration from my pal [Seb](https://github.com/usernameseb)
+Created using CRA, TS, with party-mode inspiration from my pal [Seb](https://github.com/usernameseb).
 
 ### Normal Mode
 
